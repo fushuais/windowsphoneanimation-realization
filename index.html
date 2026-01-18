@@ -8,7 +8,7 @@
             --accent-color: #0089d1;
             --bg-color: #000000;
             /* 轴心定在左侧边缘外一点 */
-            --pivot: -150px center; 
+            --pivot: 150px center; 
         }
 
         body {
@@ -56,7 +56,7 @@
 
         /* --- 旋转方向修正：向左后方飞去 (rotateY 正值) --- */
         .turnstile-out {
-            transform: rotateY(90deg) translateZ(-600px);
+            transform: rotateY(-90deg) translateZ(600px);
             opacity: 0;
             pointer-events: none;
         }
